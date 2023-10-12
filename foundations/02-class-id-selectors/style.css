@@ -1,0 +1,17 @@
+.first, .third , .fifth{
+background-color: pink;
+}
+
+#socond {
+    color: blue;
+    font-size: 36px;
+}
+
+.third, #forth {
+    font-size: 24px;
+}
+
+#forth {
+    background-color: lightgreen;
+    font-weight: bold;
+}
