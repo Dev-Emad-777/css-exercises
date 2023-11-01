@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -25,3 +25,65 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Solutions */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  min-height: 10%;
+}
+.left-links {
+  display: flex;
+  gap: 20px;
+  padding: 10px 3px;
+  margin: 0;
+  margin-right: auto;
+  flex: 0 1 ;
+}
+.right-links {
+  display: flex;
+  margin: 0;
+  padding: 10px 3px;
+  gap: 20px;
+  flex: 0 1 ;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+a:link,
+a:visited,
+a:focus {
+  /* background: palegoldenrod; */
+  color: black;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex: 0 1 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80%;
+}
+
+.footer {
+  flex: 1;
+  display: flex;
+  min-height: 10%;
+  background-color: #eee;
+}
+
